@@ -10,7 +10,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     max-width: 640px;
     margin: 1rem auto;
     border: 1px solid var(--accent1-color);
@@ -30,5 +32,5 @@ section {
 }
 
 footer {
-    display:f;
+    display: f;
 }
