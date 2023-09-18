@@ -4,20 +4,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Sample Snippet</title>
-  <meta name="description" content="testing the sample snipet">
+  <title>Alberto Gomez Arias - WDD 230 - Web Frontend Development</title>
+  <meta name="description" content="Alberto Gomez | WDD-230 Web Frontend Development | Course Assignment Portal">
   <meta name="author" content="Alberto Gomez Arias">
-  <link rel="stylesheet" href="styles/filename">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <body>
   <header>
-    <h1>Snippet sample</h1>
+    <div class="bio">
+      <img id="profilePicture" src="images/profile.webp" alt="Profile Picture of Alberto Gomez">
+      <h1>Alberto Gomez Arias</h1>
+    </div>
+    <nav>
+      <a href="https://agomezarias.github.io/wdd230/index.html">Home</a>
+      <a href="https://agomezarias.github.io/wdd230/chamber.html">Chamber</a>
+      <a href="https://agomezarias.github.io/wdd230/site-plan.html">Site Plan</a>
+      <a href="https://agomezarias.github.io/wdd230/form.html">Form</a>
+    </nav>
   </header>
-  <nav></nav>
-  <main></main>
-  <footer>©Alberto Gomez Arias | BYU-Idaho | WDD 230 - Fall 2023</footer>
-  <script src="scripts/"></script>
+  <main>
+    <div class="bodyHeader">
+      <h2><u>WDD 230: Web Frontend Development</u></h2>
+    </div>
+    <div id="cardSections">
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul>
+          <li id="firstWeek">
+            <p>Week 01: <span id="week1"></span>
+              <a href="https://agomezarias.github.io/wdd230/layoutweek1.html" target="_blank">Layout</a> |
+              <a href="https://agomezarias.github.io/wdd230/mediaquery.html" target="_blank">Media Query</a> |
+              <a href="https://agomezarias.github.io/wdd230/jspen.html" target="_blank">JS Pen</a>
+            </p>
+          </li>
+          <li id="secondWeek">
+            <p>Week 02: <span id="week2"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+          <li id="thirdWeek">
+            <p>Week 03: <span id="week3"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+          <li id="fourthWeek">
+            <p>Week 04: <span id="week4"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+          <li id="fifthWeek">
+            <p>Week 05: <span id="week5"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+          <li id="sixthWeek">
+            <p>Week 06: <span id="week6"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+          <li id="seventhWeek">
+            <p>Week 07: <span id="week7"></span>
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Layout</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">Media Query</a> | -->
+              <!-- <a href="FUTURE WEBSITE" target="_blank">JS Pen</a> -->
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="card">
+        <h3>Information</h3>
+        <div id="location">
+          <p>Ft. Worth, Texas<span id="cityState"></span></p>
+          <p>Weather: <span id="weather"></span></p>
+          <p>Page Visits: <span id="visitsCount"></span></p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p id="first">©2023 🤠 Alberto Gomez Arias 🤠 United States
+      <img id="footerFlag" src="images/americanFlag.svg" alt="American Flag">
+    </p>
+    <span id="lastModified">Last Modified: <span id="lastModifiedValue"></span></span>
+  </footer>
+  <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
