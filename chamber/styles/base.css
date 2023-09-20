@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #d3d3d3;
+    --accent1-color: #BA181B;
+    --accent2-color: #161A1D;
+    --accent3-color: #A4161A;
+    --accent4-color: #Ed383B;
+
+    --heading-font: "Cardo", serif;
+    --paragraph-font: "Cormorant Garamond", serif;
+  
+    --nav-background-color: #660708;
+    --nav-link-color: #B1A7A6;
+    --nav-hover-link-color: #0B090A;
+    --nav-hover-background-color: #F5F3F4;
+}

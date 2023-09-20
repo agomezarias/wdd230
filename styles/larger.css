@@ -64,7 +64,7 @@
         display: grid;
         background-color: var(--nav-link-color);
         text-align: center;
-        color: var(--primary-color);
+        color: var(--accent1-color);
         border-radius: .5rem;
     }
 
@@ -85,8 +85,5 @@
         width: 65px;
         height: auto;
         padding-left: 1rem;
-
     }
-
-
 }

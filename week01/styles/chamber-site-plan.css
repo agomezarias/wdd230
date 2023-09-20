@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #d3d3d3;
+    --accent1-color: #BA181B;
+    --accent2-color: #161A1D;
+    --accent3-color: #A4161A;
+    --accent4-color: #Ed383B;
+
+    --heading-font: "Cardo", serif;
+    --paragraph-font: "Cormorant Garamond", serif;
+  
+    --nav-background-color: #660708;
+    --nav-link-color: #B1A7A6;
+    --nav-hover-link-color: #0B090A;
+    --nav-hover-background-color: #F5F3F4;
+}
+
+header,
+main,
+footer {
+    max-width: 750px;
+    min-width: 500px;
+    margin: 1rem auto;
+}
+
+h1 {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+
+p#headingsFont {
+    font-family: var(--heading-font);
+    font-size: larger;
+    /* color: var(--nav-hover-link-color); */
+}
+
+p#paragraphFont {
+    font-family: var(--paragraph-font);
+    font-size: larger;
+    /* color: var(--primary-color); */
+}
+
+img {
+    padding: 2rem
+}
+
+div {
+    background-color: var(--accent3-color);
+    color: var(--primary-color);
+}
+
+h2 {
+    background-color: var(--nav-background-color);
+    color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--accent3-color);
+    color: var(--primary-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
