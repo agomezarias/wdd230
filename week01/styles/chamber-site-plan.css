@@ -36,7 +36,7 @@ p#headingsFont {
 }
 
 a {
-    color: var(--nav-hover-link-color);
+    color: greenyellow;
 }
 
 p#paragraphFont {
