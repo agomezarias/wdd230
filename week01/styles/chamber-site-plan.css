@@ -35,6 +35,10 @@ p#headingsFont {
     /* color: var(--nav-hover-link-color); */
 }
 
+a {
+    color: var(--nav-link-color);
+}
+
 p#paragraphFont {
     font-family: var(--paragraph-font);
     font-size: larger;
