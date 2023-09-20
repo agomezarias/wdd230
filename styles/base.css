@@ -116,6 +116,10 @@ p#first {
     padding-right: 1rem;
 }
 
+p#second {
+    color: var(--nav-background-color);
+}
+
 nav a:link,
 nav a:visited {
   color: var(--nav-hover-background-color);
