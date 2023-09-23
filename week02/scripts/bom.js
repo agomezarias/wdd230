@@ -10,22 +10,22 @@ button.addEventListener('click', () => {
         console.log("Please remember to enter a book and a chapter")
     };
 
-    const li = document.createElement('li');
-    const deleteButton = document.createElement('detlete');
+    let li = document.createElement('li');
+    let deleteButton = document.createElement('detlete');
 
     li.textContent = input.value;
     deleteButton.textContent = '❌';
     
     li.append(deleteButton);
     list.append(li);
-
-});
-
-deleteButton.addEventListener('click', function () {
-    list.removeChild(li);
+    
+    deleteButton.addEventListener('click', function () {
+        list.removeChild(li);
+        input.focus();
+    });
+    
     input.focus();
+    input.value = '';
+    
 });
-
-input.focus();
-input.value = '';
 
