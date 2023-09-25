@@ -46,14 +46,15 @@
         display: flex;
     }
 
-    nav a{
+    nav.navigation {
         display: flex;
         /* grid-column: 2/3; */
         /* grid-auto-rows: 1fr 1fr; */
-        width: 100%;
+        /* width: 97%; */
+        align-items: center;
         justify-content: center;
-        padding-bottom: .75rem;
-        padding-top: .75rem;
+        padding-bottom: .5rem;
+        padding-top: .5rem;
         font-size: large;
         background-color: var(--nav-background-color);
     }

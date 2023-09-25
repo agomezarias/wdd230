@@ -97,10 +97,8 @@ div#location {
 
 div.bodyHeader {
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* gap: 5rem; */
-    /* margin-right: 1rem; */
     max-width: 435px;
 }
 
