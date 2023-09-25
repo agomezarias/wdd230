@@ -26,7 +26,8 @@
       <img id="profilePicture" src="images/profile.webp" alt="Profile Picture of Alberto Gomez">
       <h1>Alberto Gomez Arias</h1>
     </div>
-    <nav>
+    <a id="menu"></a>
+    <nav class="navigation">
       <a href="https://agomezarias.github.io/wdd230/index.html">Home</a>
       <a href="https://agomezarias.github.io/wdd230/chamber.html">Chamber</a>
       <a href="https://agomezarias.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a>
@@ -36,8 +37,11 @@
   <main>
     <div class="bodyHeader">
       <h2>WDD 230: Web Frontend Development</h2>
-      <hr>
+      <div id="mode">
+        Mode 🌑
+      </div>
     </div>
+    <hr>
     <div id="cardSections">
       <section class="card">
         <h3>Learning Activities</h3>
@@ -110,6 +114,8 @@
     <p id="second">Last Modified:<span id="lastModified"></span></p>
   </footer>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/responsiveHamburgerMenu.js"></script>
+  <script src="scripts/darkMode.js"></script>
 </body>
 
 </html>
