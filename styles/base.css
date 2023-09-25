@@ -131,14 +131,14 @@ p#second {
 /*Hamburger Button*/
 
 #menu {
-    display: block;
+    display: flex;
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
     padding: .5rem .75rem;
     background-color: var(--nav-background-color);
     color: var(--nav-hover-background-color);
-    text-align: right;
+    justify-content: right;
 }
 
 #menu::before {
@@ -153,11 +153,6 @@ a#menu.show {
     background-color: var(--secondary-color);
     font-size: large;
     padding: .3rem;
-}
-
-.navigation {
-    list-style: none;
-    margin: 0 auto;
 }
 
 .navigation {

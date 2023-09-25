@@ -42,7 +42,7 @@
         gap: 1rem;
     }
 
-    .navigation {
+    #menu.show {
         display: flex;
     }
 
@@ -52,7 +52,7 @@
         /* grid-auto-rows: 1fr 1fr; */
         /* width: 97%; */
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         padding-bottom: .5rem;
         padding-top: .5rem;
         font-size: large;
