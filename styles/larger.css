@@ -48,13 +48,8 @@
 
     nav.navigation {
         display: flex;
-        /* grid-column: 2/3; */
-        /* grid-auto-rows: 1fr 1fr; */
-        /* width: 97%; */
         align-items: center;
-        justify-content: space-evenly;
-        padding-bottom: .5rem;
-        padding-top: .5rem;
+        justify-content: space-around;
         font-size: large;
         background-color: var(--nav-background-color);
     }
@@ -67,7 +62,6 @@
     nav a:hover {
       color: var(--nav-hover-link-color);
       background-color: var(--nav-hover-background-color);
-      height: fit-content;
     }
     
 
@@ -116,7 +110,16 @@
         padding-left: 1rem;
     }
 
-    #menu {
+    .show#menu {
+        display: none;
+    }
+
+    .show.navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a#menu {
         display: none;
     }
 }
