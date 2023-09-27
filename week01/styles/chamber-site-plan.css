@@ -29,7 +29,7 @@ h1 {
 }
 
 
-p#headingsFont {
+p#headings-font {
     font-family: var(--heading-font);
     font-size: larger;
     /* color: var(--nav-hover-link-color); */
@@ -39,7 +39,7 @@ a {
     color: greenyellow;
 }
 
-p#paragraphFont {
+p#paragraph-font {
     font-family: var(--paragraph-font);
     font-size: larger;
     /* color: var(--primary-color); */
