@@ -5,7 +5,7 @@
     main,
     footer,
     div {
-        max-width: 900px;
+        max-width: 960px;
     }
 
     div.bio {
@@ -38,17 +38,17 @@
         font-size: large;
         background-color: var(--nav-background-color);
     }
-    
+
     nav a:link,
     nav a:visited {
-      color: var(--nav-hover-background-color);
+        color: var(--nav-hover-background-color);
     }
-    
+
     nav a:hover {
-      color: var(--nav-hover-link-color);
-      background-color: var(--nav-hover-background-color);
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
     }
-    
+
     div#location {
         display: grid;
         text-align: center;
