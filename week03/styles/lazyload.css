@@ -1,0 +1,25 @@
+body {
+    display: block;
+    max-width: 500px;
+    min-width: 400px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+figure {
+    padding: 1rem;
+}
+
+figcaption {
+    font-weight: 700;
+}
+
+hr {
+    padding-top: .1rem;
+}
+
+footer img {
+    width: 65px;
+    height: 34px;
+    padding-left: .5rem;
+}

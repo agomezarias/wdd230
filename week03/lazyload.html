@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Assignment</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="six image lazy load example">
+    <meta name="author" content="Alberto Gomez Arias">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Load</h1>
+    </header>
+    <hr>
+    <main>
+        <figure>
+            <img src="images/bombita-truck.webp" loading="lazy" width="400" height="600" alt="bombita-truck">
+            <figcaption>Bombita Truck</figcaption>
+        </figure>
+        <figure>
+            <img src="images/c10-truck.webp" loading="lazy" width="400" height="600" alt="c10-truck">
+            <figcaption>C-10 Truck</figcaption>
+        </figure>
+        <figure>
+            <img src="images/challenger-car.webp" loading="lazy" width="400" height="600" alt="dodge-challenger">
+            <figcaption>Dodge Challenger</figcaption>
+        </figure>
+        <figure>
+            <img src="images/gwagon-truck.webp" loading="lazy" width="400" height="600" alt="gwagon">
+            <figcaption>G-Wagon</figcaption>
+        </figure>
+        <figure>
+            <img src="images/impala-car.webp" loading="lazy" width="400" height="600" alt="chevy-impala">
+            <figcaption>Chevy Impala</figcaption>
+        </figure>
+        <figure>
+            <img src="images/lambo-car.webp" loading="lazy" width="400" height="600" alt="lambo">
+            <figcaption>Lambo</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <p id="first">©2023 😴 Alberto Gomez Arias 😴 WDD230 - Fall 2023
+            <img id="lazy-animal" src="images/lazy-animal.svg" alt="lazy-animal">
+        </p>
+        <p id="second">Last Modified:<span id="last-modified"></span></p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+
+</html>
