@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #f8fbff;
+    --secondary-color: #8fc3cb;
+    --accent1-color: #1a1a80;
+}
+
 body {
     display: block;
     max-width: 500px;
@@ -22,4 +28,12 @@ footer img {
     width: 65px;
     height: 34px;
     padding-left: .5rem;
+}
+
+header,
+footer {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
