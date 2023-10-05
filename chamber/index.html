@@ -23,39 +23,88 @@
 
 <body>
   <header>
-    <h1>Aurora</h1>
-    <h3>Chamber of Commerce</h3>
-    <nav class="socialmedia">
-      <a href="https://www.facebook.com/">
-        <img src="images/facebook.svg" alt="Facebook">
-      </a>
-      <a href="https://www.instagram.com/">
-        <img src="images/instagram.svg" alt="Instagram">
-      </a>
-      <a href="https://twitter.com/">
-        <img src="images/twitter.svg" alt="Twitter">
-      </a>
-    </nav>
+    <div class="header-top">
+      <img id="logo" src="images/aurora-commerce-logo.webp" alt="red-aurora-commerce-logo">
+      <h1>Aurora Commerce</h1>
+      <nav class="socialmedia">
+        <a href="https://www.facebook.com/">
+          <img src="images/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/">
+          <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/">
+          <img src="images/twitter.svg" alt="Twitter">
+        </a>
+      </nav>
+      <a id="menu"></a>
+    </div>
     <nav class="navigation">
-      <a href="https://agomezarias.github.io/wdd230/chamber/******">About |</a>
-      <a href="https://agomezarias.github.io/wdd230/chamber/*******">Events/Calendar |</a>
-      <a href="https://agomezarias.github.io/wdd230/chamber/********">Board Committee |</a>
+      <a href="https://agomezarias.github.io/wdd230/chamber/******">About</a>
+      <a href="https://agomezarias.github.io/wdd230/chamber/*******">Events / Calendar</a>
+      <a href="https://agomezarias.github.io/wdd230/chamber/********">Board Committee</a>
       <a href="https://agomezarias.github.io/wdd230/chamber/*********">Contact</a>
     </nav>
   </header>
   <main>
+    <section id="submission">
+      <button type="submit">Join the Chamber</button>
+      <div id="mode">
+        Dark Mode 🌑
+      </div>
+    </section>
     <div class="hero">
       <picture>
-        <source srcset="images/slc-temple-mobile.webp" media="(max-width: 400px)">
-        <img src="images/hero-colorado-buffaloes.jpg" alt="denver skyline with buffaloes" width="960" height="600">
+        <source srcset="images/hero-colorado-buffaloes-small.webp" media="(max-width: 500px)">
+        <source srcset="images/hero-colorado-buffaloes-medium.webp" media="(max-width: 900px)">
+        <img src="images/hero-colorado-buffaloes.webp" alt="community hands in middle" width="1280" height="600">
       </picture>
       <div class="hero-label">
-        <p>Salt Lake Temple</p>
+        <p>BUILDING OUR FUTURE TOGETHER</p>
       </div>
     </div>
+    <section class="call-to-action">
+      <h2>Subscribe To Our Newsletter</h2>
+      <form>
+        <div class="formheader">
+          <!-- <img src="images/discount.png" alt="discount"> -->
+          <h4>! ! ! Join The Community Now ! ! !</h4>
+        </div>
+        <fieldset>
+          <legend>Newsletter Sign Up</legend>
+          <!-- <div class="form-item">
+            <div class="form-item column1">
+              <label for="agreement">By Clicking: You agree to the</label>
+              <button type="button" id="terms">terms and conditions</button>
+              <input type="checkbox" name="agreement" id="agreement">
+            </div>
+          </div> -->
+          <div class="form-item2">
+            <div class="form-item column2">
+              <label for="fullname">Full Name:</label>
+              <input type="text" id="fullname" name="fullname">
+            </div>
+          </div>
+          <div class="form-item2">
+            <div class="form-item column2">
+              <label for="useremail">Email:</label>
+              <input type="email" id="useremail" name="useremail">
+            </div>
+          </div>
+          <button type="submit">Click Here to Sign Up</button>
+        </fieldset>
+      </form>
+    </section>
   </main>
-  <footer>©Alberto Gomez Arias | BYU-Idaho | WDD 230 - Fall 2023</footer>
-  <script src="scripts/"></script>
+  <footer>
+    <p id="first">©2023 🤠 Alberto Gomez Arias 🤠 Chamber of Commerce
+      <img id="flag" src="images/american-flag.jpg" alt="american-flag">
+    </p>
+    <p id="second">Last Modified:<span id="last-modified"></span></p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/responsiveHamburgerMenu.js"></script>
+  <script src="scripts/darkMode.js"></script>
 </body>
 
 </html>

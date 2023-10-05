@@ -1,0 +1,220 @@
+@media screen and (min-width: 501px) {
+
+    body,
+    header,
+    main,
+    footer,
+    div {
+        max-width: 1280px;
+        min-width: 675px;
+    }
+
+    h1 {
+        padding: .25rem;
+        font-size: 2.5rem;
+    }
+
+    .socialmedia {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        /* padding: .75rem; */
+    }
+
+    .header-top {
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    header img {
+        display: flex;
+        width: 2.5rem;
+        height: auto;
+        padding-top: 1.4rem;
+    }
+
+    header {
+        background-color: var(--secondary-color);
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    main {
+        max-width: 1080px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-label {
+        display: block;
+        position: relative;
+        color: var(--accent4-color);
+        font-weight: 700;
+        font-size: x-large;
+        bottom: 20rem;
+        text-align: center;
+    }
+
+    footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        text-align: center;
+        color: var(--accent1-color);
+    }
+
+    footer img {
+        width: 65px;
+        height: 34px;
+        padding-left: 1rem;
+
+    }
+
+    p#first {
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    p#second {
+        color: var(--nav-background-color);
+    }
+
+
+    /* Call to action form */
+
+    form {
+        padding: 0rem;
+        margin: 0rem auto;
+        background-color: var(--secondary-color);
+        border: .5rem dotted var(--accent1-color);
+        border-radius: 1rem;
+        display: grid;
+    }
+
+    fieldset {
+        display: grid;
+        margin: 1rem;
+        border: 2px solid var(--accent2-color);
+        border-radius: 1rem;
+
+    }
+
+    legend {
+        padding: .45rem;
+        color: var(--accent2-color);
+        font-family: var(--heading-font);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    label,
+    input,
+    button,
+    select,
+    textarea {
+        font-family: var(--paragraph-font)
+    }
+
+    label {
+        text-align: right;
+        font-size: large;
+        font-weight: 700;
+    }
+
+    input,
+    textarea {
+        padding: .5rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        width: 90%;
+    }
+
+    input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+        vertical-align: bottom;
+    }
+
+    button {
+        margin: 2rem;
+        background-color: var(--accent2-color);
+        color: var(--secondary-color);
+        border: none;
+        cursor: pointer;
+        border-radius: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    button:hover {
+        background-color: var(--accent1-color);
+    }
+
+    .form-item {
+        display: grid;
+        align-items: center;
+    }
+
+    .column2 {
+        grid-template-columns: .75fr 3fr;
+        align-items: center;
+    }
+
+    .column1 {
+        display: inline-flex;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    .column3 {
+        align-items: center;
+        width: 600px;
+    }
+
+    .column1 input[id="agreement"] {
+        cursor: pointer;
+    }
+
+    .booking button[id="terms"] {
+        display: flex;
+        color: var(--primary-color);
+        cursor: pointer;
+        border-radius: 0;
+        border: 0;
+        text-decoration: underline;
+        padding: 0;
+        margin-left: .5rem;
+        font-size: 1.3rem;
+    }
+
+    .booking button:hover {
+        background-color: var(--accent1-color);
+    }
+
+    .booking img {
+        display: flex;
+        width: 200px;
+    }
+
+    .formheader {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        align-items: center;
+        width: 100%;
+    }
+
+    h4 {
+        display: flex;
+        justify-content: center;
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+        background-color: var(--accent1-color);
+        font-size: 2.5rem;
+        width: 95%;
+    }
+
+}
