@@ -1,56 +1,75 @@
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 580px) {
 
     body,
     header,
     main,
-    footer,
-    div {
-        max-width: 1280px;
-        min-width: 675px;
-    }
-
-    h1 {
-        padding: .25rem;
-        font-size: 2.5rem;
-    }
-
-    .socialmedia {
-        display: flex;
-        justify-content: center;
-    }
-
-    .header-top {
-        display: inline-flex;
-        justify-content: center;
-    }
-
-    #logo {
-        width: 5rem;
-        height: auto;
-    }
-
-    header img {
-        display: flex;
-        width: 5rem;
-        height: auto;
-        padding-top: 1.4rem;
+    footer {
+        max-width: 900px;
+        min-width: 700px;
+        margin: 0 auto;
+        padding: 0;
     }
 
     header {
-        background-color: var(--secondary-color);
-        padding-left: .5rem;
-        padding-right: .5rem;
+        display: flex;
+        background-color: var(--nav-background-color);
+        justify-content: space-around;
     }
 
-    .navigation {
-        display: inline-flex;
+    header img {
+        display: block;
+        width: 1.75rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    h1 {
+        color: var(--secondary-color);
+        font-size: rem;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+    }
+
+    nav.socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: .5rem;
+        margin-left: .5rem;
+    }
+
+    img#logo {
+        width: 5rem;
+        height: auto;
+        padding-left: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    nav.navigation {
+        display: flex;
+        font-size: medium;
+        text-align: right;
+        /* width: 35%; */
+        justify-content: right;
+        align-items: center;
+        /* padding: .5rem; */
+    }
+
+    a {
+        margin: 0;
     }
 
     main {
-        max-width: 1080px;
+        max-width: 800px;
     }
 
     .hero img {
+        display: flex;
+        /* position: relative; */
         width: 100%;
         height: auto;
     }
@@ -60,8 +79,8 @@
         position: relative;
         color: var(--accent4-color);
         font-weight: 700;
-        font-size: x-large;
-        bottom: 20rem;
+        font-size: xx-large;
+        bottom: 10rem;
         text-align: center;
     }
 
@@ -204,7 +223,8 @@
     a#menu {
         display: none;
     }
-/* 
+
+    /* 
     #menu.show {
         display: none;
     } */

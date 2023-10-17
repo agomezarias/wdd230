@@ -24,9 +24,9 @@ body,
 header,
 main,
 footer,
-div {
+section {
     max-width: 500px;
-    min-width: 300px;
+    min-width: 400px;
     margin: 1rem auto;
     padding: .25rem;
 }
@@ -34,7 +34,7 @@ div {
 h1 {
     display: flex;
     padding: .25rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     position: relative;
     color: var(--nav-hover-link-color);
 }
@@ -49,7 +49,6 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: fit-content; */
 }
 
 img#logo {
@@ -61,41 +60,50 @@ img#logo {
 
 header img {
     display: flex;
-    width: 40px;
+    width: 2.5rem;
     height: auto;
-    /* padding-top: 1.4rem; */
 }
 
 header {
     display: block;
     background-color: var(--secondary-color);
-    /* padding-left: .5rem; */
-    /* padding-right: .5rem; */
 }
 
 #submission {
-    display: inline-flex;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 1rem;
+    bottom: 1.5rem;
+}
+
+button#join {
+    display: grid;
+    background-color: var(--accent2-color);
+    color: var(--nav-hover-background-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
-    /* width: 450px; */
 }
 
 /* Dark Mode */
 
 #mode {
-    /* display: flex; */
+    display: grid;
     font-size: 1.49rem;
     cursor: pointer;
-    /* text-align: left; */
     text-align: center;
     font-weight: 700;
-    justify-content: center;
-    /* width: 500px; */
-    /* position: relative; */
+    justify-content: right;
 }
 
 .hero img {
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -104,35 +112,91 @@ header {
     display: block;
     position: relative;
     background-color: var(--secondary-color);
+    color: var(--nav-background-color);
     opacity: .7;
     font-weight: 700;
-    font-size: x-large;
+    font-size: 1.4rem;
     bottom: 8rem;
     text-align: center;
     padding: 0;
 }
 
+h2 {
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+hr {
+    color: var(--accent1-color);
+    background-color: var(--accent3-color);
+    padding-top: .1rem;
+    /* margin-right: 1rem; */
+    /* margin-left: 1rem; */
+}
+
+section.current-events {
+    border: 3px solid var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: var(--nav-hover-link-color);
+    border-radius: .5rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+section.weather {
+    border: 3px solid var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: var(--nav-hover-link-color);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#spotlight {
+    border: 3px solid var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: var(--nav-hover-link-color);
+    border-radius: .5rem;
+    text-align: right;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h6 {
+    color: var(--nav-background-color);
+    text-align: center;
+    font-size: small;
+    margin: .4rem;
+}
+
+a:hover {
+    color: var(--nav-hover-link-color);
+}
+
+.call-to-action {
+    display: block;
+}
+
 /* Call to action form */
 
 form {
-    /* max-width: 500px; */
-    /* height: 200px; */
     padding: 0rem;
     margin: 0rem auto;
     background-color: var(--secondary-color);
     border: .5rem dotted var(--accent1-color);
     border-radius: 1rem;
-    display: grid;
 }
 
 fieldset {
-    display: flex;
-    width: 30%;
+    display: grid;
     margin: 0rem;
-    border: 2px solid var(--accent2-color);
+    border: 5px solid var(--accent2-color);
     border-radius: 1rem;
-    /* width: 200px; */
-
+    text-align: center;
 }
 
 legend {
@@ -151,12 +215,6 @@ textarea {
     font-family: var(--paragraph-font)
 }
 
-/* label { */
-    /* text-align: right; */
-    /* font-size: large; */
-    /* font-weight: 700; */
-/* } */
-
 input,
 textarea {
     padding: .5rem;
@@ -165,91 +223,65 @@ textarea {
     width: 90%;
 }
 
-/* input[type="checkbox"] {
-    width: 25px;
-    height: 25px;
-    vertical-align: bottom;
-} */
-
-button {
+button#submit {
     display: flex;
     margin: 2rem;
     background-color: var(--accent2-color);
-    color: var(--secondary-color);
+    color: var(--nav-hover-background-color);
     border: none;
     cursor: pointer;
     border-radius: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
-    /* width: 80%; */
-    /* align-items: center; */
+    width: 80%;
+    align-items: center;
     justify-content: center;
 }
 
-button:hover {
+button#submit:hover,
+button#join:hover {
     background-color: var(--accent1-color);
 }
 
-/* .form-item { */
-    /* display: grid; */
-    /* align-items: center; */
-/* } */
-
-/* .column2 { */
-    /* grid-template-columns: .75fr 3fr; */
-    /* align-items: center; */
-/* } */
-
-/* .column1 { */
-    /* display: inline-flex; */
-    /* grid-template-columns: 33% 33% 33%; */
-/* } */
-
-/* .column3 { */
-    /* align-items: center; */
-    /* width: 600px; */
-/* } */
-
-/* .column1 input[id="agreement"] { */
-    /* cursor: pointer; */
-/* } */
-
-/* .booking button[id="terms"] {
-    display: flex;
+.form-item1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
     color: var(--primary-color);
-    cursor: pointer;
-    border-radius: 0;
-    border: 0;
-    text-decoration: underline;
-    padding: 0;
-    margin-left: .5rem;
-    font-size: 1.3rem;
-} */
+    background-color: var(--nav-background-color);
+}
+
+.form-item2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 20% 80%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--nav-background-color);
+}
 
 .booking button:hover {
     background-color: var(--accent1-color);
 }
 
-/* .booking img {
-    display: flex;
-    width: 200px;
-} */
-
 .formheader {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    width: 400px;
 }
 
 h4 {
     display: block;
-    justify-content: center;
+    justify-content: left;
     font-family: var(--heading-font);
     color: var(--primary-color);
-    background-color: var(--accent1-color);
+    background-color: var(--nav-background-color);
     font-size: 1.8rem;
-    /* width: 100%; */
 }
 
 footer {
@@ -317,7 +349,6 @@ a#menu.show {
     padding: .75rem;
     justify-content: center;
     position: relative;
-    /* top: 50px; */
 }
 
 .navigation {
@@ -359,5 +390,4 @@ div a {
     display: block;
     justify-content: center;
     align-items: center;
-    /* gap: 1rem; */
 }
