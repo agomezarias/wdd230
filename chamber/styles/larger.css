@@ -2,11 +2,10 @@
 
     body,
     header,
-    main,
     footer {
         max-width: 900px;
         min-width: 700px;
-        margin: 0 auto;
+        margin: 1rem auto;
         padding: 0;
     }
 
@@ -20,14 +19,6 @@
         display: block;
         width: 1.75rem;
         height: auto;
-        justify-content: center;
-        align-items: center;
-        padding-left: 1rem;
-    }
-
-    h1 {
-        color: var(--secondary-color);
-        font-size: rem;
         justify-content: center;
         align-items: center;
         padding-left: 1rem;
@@ -47,6 +38,10 @@
         padding-left: 1rem;
         padding-top: .5rem;
         padding-bottom: .5rem;
+    }
+
+    a#menu {
+        display: none;
     }
 
     nav.navigation {
@@ -69,9 +64,10 @@
 
     .hero img {
         display: flex;
-        /* position: relative; */
+        position: relative;
         width: 100%;
         height: auto;
+        bottom: 1.3rem;
     }
 
     .hero-label {
@@ -80,19 +76,114 @@
         color: var(--accent4-color);
         font-weight: 700;
         font-size: xx-large;
-        bottom: 10rem;
+        bottom: 11rem;
         text-align: center;
+    }
+
+    #submission {
+        display: grid;
+        position: relative;
+        grid-template-columns: .4fr .35fr;
+        justify-content: space-between;
+        bottom: 29.8rem;
+        max-width: 100%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 0;
+    }
+
+    #mode {
+        background-color: var(--secondary-color);
+        color: var(--accent2-color);
+        padding: 1rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 1rem;
+        justify-content: center;
+    }
+
+    .events-weather {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        position: absolute;
+        bottom: 25.7rem;
+        max-width: 800px;
+        gap: 1rem;
+        margin-bottom: 0;
+    }
+
+    .member-spotlights {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* max-width: 800px; */
+        gap: 7.5px;
+        top: 6rem;
+        margin-top: 1rem;
+
+    }
+
+    h2 {
+        display: none;
+    }
+
+    #spotlight {
+        display: block;
+        max-width: 260px;
+        min-width: none;
     }
 
     /* Call to action form */
 
     form {
+        display: none;
+    }
+
+    button#submit {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        top: 4rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--secondary-color);
+        text-align: center;
+        color: var(--accent1-color);
+        margin-top: 3rem;
+    }
+
+    footer img {
+        width: 65px;
+        height: 34px;
+        padding-left: 1rem;
+
+    }
+
+    p#first {
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    p#second {
+        color: var(--nav-background-color);
+    }
+
+    /* form {
         padding: 0rem;
         margin: 0rem auto;
         background-color: var(--secondary-color);
         border: .5rem dotted var(--accent1-color);
         border-radius: 1rem;
-        display: grid;
+        display: ;
     }
 
     .formheader {
@@ -217,12 +308,9 @@
         color: var(--primary-color);
         background-color: var(--accent1-color);
         font-size: 2.5rem;
-        width: 95%;
-    }
+        width: 100%;
+    } */
 
-    a#menu {
-        display: none;
-    }
 
     /* 
     #menu.show {
