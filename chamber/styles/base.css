@@ -162,7 +162,9 @@ section.weather {
     margin-top: 1rem;
 }
 
-#spotlight {
+#spotlight1,
+#spotlight2,
+#spotlight3 {
     border: 3px solid var(--accent1-color);
     background-color: var(--secondary-color);
     color: var(--nav-hover-link-color);
@@ -229,7 +231,8 @@ textarea {
     width: 90%;
 }
 
-button#submit {
+button#submit1,
+button#submit2 {
     display: flex;
     margin: 2rem;
     background-color: var(--accent2-color);
@@ -244,7 +247,8 @@ button#submit {
     justify-content: center;
 }
 
-button#submit:hover,
+button#submit1:hover,
+button#submit2:hover,
 button#join:hover {
     background-color: var(--accent1-color);
 }

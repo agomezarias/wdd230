@@ -128,7 +128,9 @@
         display: none;
     }
 
-    #spotlight {
+    #spotlight1,
+    #spotlight2,
+    #spotlight3 {
         display: block;
         max-width: 260px;
         min-width: none;
@@ -140,7 +142,7 @@
         display: none;
     }
 
-    button#submit {
+    button#submit1 {
         display: flex;
         position: relative;
         justify-content: center;
