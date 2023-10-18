@@ -24,7 +24,7 @@ main,
 footer,
 div {
     max-width: 465px;
-    min-width: 275px;
+    min-width: 435px;
     margin: 1rem auto;
 }
 
@@ -48,9 +48,10 @@ header {
     background-color: var(--secondary-color);
 }
 
-main {
+main,
+iframe {
     max-width: 435px;
-    min-width: 335px;
+    min-width: 400px;
     margin: 1rem auto;
 }
 
@@ -78,10 +79,10 @@ h1 {
 
 h2 {
     display: grid;
-    font-size: 1.49em;
+    font-size: 1.4em;
     justify-content: left;
     text-align: left;
-    /* padding-left: .5rem; */
+    padding-left: 1rem;
 }
 
 hr {
@@ -104,6 +105,11 @@ h3 {
 div#location {
     display: grid;
     text-align: center;
+}
+
+iframe {
+    display: block;
+    border-radius: .5rem;
 }
 
 footer {
@@ -209,31 +215,28 @@ div a {
     margin: 10px auto;
     position: relative;
     border: 1px solid rgba(0, 0, 0, .1);
-    height: 300px;
+    height: 200px;
 }
 
 .hero img {
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
 }
 
 .hero-label {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background: radial-gradient(#fff, #4D5B97);
-    border: 1px solid rgba(0, 0, 0, .75);
-    padding: 1.5rem;
-    box-shadow: 0 0 3rem #fff;
+    top: 5px;
+    background: radial-gradient(var(--primary-color), var(--accent1-color));
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 0 3rem var(--primary-color);
     opacity: 0.75;
-    /* Buenas */
 }
 
 .hero-label p {
-    margin: 0;
     padding: .25rem;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: "Tilt Prism", serif;
+    text-align: center;
+    color: var(--nav-hover-link-color);
 }
