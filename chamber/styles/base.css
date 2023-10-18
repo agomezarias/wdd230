@@ -23,9 +23,10 @@ body {
 body,
 header,
 main,
-footer {
-    max-width: 500px;
-    min-width: 400px;
+footer,
+iframe {
+    max-width: 465px;
+    min-width: 435px;
     margin: 1rem auto;
     padding: .25rem;
 }
@@ -55,7 +56,6 @@ img#logo {
     position: relative;
     width: 15%;
     height: auto;
-
 }
 
 header img {
@@ -325,7 +325,7 @@ p#second {
     text-decoration: none;
     cursor: pointer;
     padding: .75rem;
-    justify-content: center;
+    justify-content: right;
     background-color: var(--nav-background-color);
     color: var(--nav-hover-background-color);
 }
@@ -378,11 +378,11 @@ div a {
     color: var(--nav-link-color-2);
 }
 
+#menu:hover,
 .navigation a:hover,
 .navigation a:active {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-    height: fit-content;
 }
 
 .show.navigation {
@@ -396,4 +396,25 @@ div a {
     display: block;
     justify-content: center;
     align-items: center;
+}
+
+/* Discover Page */
+
+img#profile-picture {
+    position: relative;
+    width: 15%;
+    height: auto;
+    width: 75px;
+    height: 113px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+div.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
 }

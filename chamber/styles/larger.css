@@ -2,7 +2,8 @@
 
     body,
     header,
-    footer {
+    footer,
+    figure {
         max-width: 900px;
         min-width: 715px;
         margin: 1rem auto;
@@ -67,7 +68,8 @@
         position: relative;
         width: 100%;
         height: auto;
-        bottom: 1.3rem;
+        top: 2rem;
+        /* bottom: 1.3rem; */
     }
 
     .hero-label {
@@ -85,7 +87,7 @@
         position: relative;
         grid-template-columns: .4fr .35fr;
         justify-content: space-between;
-        bottom: 30.3rem;
+        bottom: 27rem;
         max-width: 100%;
         padding-right: 2rem;
         padding-left: 2rem;
@@ -106,11 +108,10 @@
         display: grid;
         grid-template-columns: 1fr .5fr;
         position: relative;
-        bottom: 11rem;
+        bottom: 5rem;
         max-width: 800px;
         min-width: 705px;
         gap: 1rem;
-        margin-bottom: 0;
     }
 
     .company-spotlights {
@@ -121,7 +122,7 @@
         gap: 7.5px;
         /* top: 6rem; */
         /* margin-top: 1rem; */
-        bottom: 11rem;
+        bottom: 2rem;
     }
 
     h2 {
@@ -145,7 +146,7 @@
     .call-to-action {
         display: block;
         position: relative;
-        bottom: 17rem;
+        bottom: 5rem;
     }
 
     button#submit1 {
@@ -159,18 +160,24 @@
         margin-right: 0;
     }
 
-    footer {
-        position: relative;
-        bottom: 15rem;
-        margin-bottom: -5rem;
-        /* display: grid;
+    figure {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* footer { */
+    /* position: sticky; */
+    /* bottom: 15rem; */
+    /* margin-bottom: -5rem; */
+    /* display: grid;
         align-items: center;
         justify-content: center;
         background-color: var(--secondary-color);
         text-align: center;
         color: var(--accent1-color);
         margin-top: 3rem; */
-    }
+    /* } */
 
     /* footer img {
         width: 65px;
