@@ -296,7 +296,7 @@ footer {
     justify-content: center;
     background-color: var(--secondary-color);
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--nav-background-color);
 }
 
 footer img {
