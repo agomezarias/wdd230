@@ -185,10 +185,6 @@ a:hover {
     color: var(--nav-hover-link-color);
 }
 
-.call-to-action {
-    display: block;
-}
-
 /* Call to action form */
 
 form {

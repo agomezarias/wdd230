@@ -105,8 +105,8 @@
     .events-weather {
         display: grid;
         grid-template-columns: 1fr .5fr;
-        position: absolute;
-        bottom: 25.7rem;
+        position: relative;
+        bottom: 11rem;
         max-width: 800px;
         min-width: 705px;
         gap: 1rem;
@@ -119,27 +119,33 @@
         grid-template-columns: 1fr 1fr 1fr;
         /* max-width: 800px; */
         gap: 7.5px;
-        top: 6rem;
-        margin-top: 1rem;
-
+        /* top: 6rem; */
+        /* margin-top: 1rem; */
+        bottom: 11rem;
     }
 
     h2 {
         display: none;
     }
 
-    #spotlight1,
+    /* #spotlight1,
     #spotlight2,
     #spotlight3 {
         display: block;
         max-width: 260px;
         min-width: none;
-    }
+    } */
 
     /* Call to action form */
 
     form {
         display: none;
+    }
+
+    .call-to-action {
+        display: block;
+        position: relative;
+        bottom: 17rem;
     }
 
     button#submit1 {
@@ -154,16 +160,19 @@
     }
 
     footer {
-        display: grid;
+        position: relative;
+        bottom: 15rem;
+        margin-bottom: -5rem;
+        /* display: grid;
         align-items: center;
         justify-content: center;
         background-color: var(--secondary-color);
         text-align: center;
         color: var(--accent1-color);
-        margin-top: 3rem;
+        margin-top: 3rem; */
     }
 
-    footer img {
+    /* footer img {
         width: 65px;
         height: 34px;
         padding-left: 1rem;
@@ -178,7 +187,7 @@
 
     p#second {
         color: var(--nav-background-color);
-    }
+    } */
 
     /* form {
         padding: 0rem;
