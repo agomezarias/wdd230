@@ -15,6 +15,7 @@ modeButton.addEventListener("click", () => {
 		main.style.color = "#000";
 		body.style.background = "#fff";
 		body.style.color = "#000";
+
 		// main.style.color = "#004466";
 		modeButton.textContent = "Dark Mode 🌑";
 	}
