@@ -62,7 +62,6 @@
         align-items: center;
         max-width: 850px;
         min-width: 350px;
-        padding-top: none;
     }
 
     iframe {
@@ -80,7 +79,7 @@
     }
 
     footer img {
-        size: 15%;
+        resize: 15%;
         height: auto;
         padding-left: 1rem;
     }
