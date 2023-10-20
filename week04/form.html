@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Alberto Gomez Arias - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="favicon.webp">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Alberto Gomez Arias, Form Assignment">
+    <meta name="author" content="Alberto Gomez Arias">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <meta property="og:title" content="My Hometown (Denver, CO)">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1616474632177-aefa7a4fbb1f?crop=faces%2Cedges&cs=tinysrgb&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjk1NDI0OTM5fA&ixlib=rb-4.0.3&q=60&w=1200&auto=format&h=630&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-mode=normal&blend-alpha=10&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=000000">
+    <meta property="og:url" content="https://unsplash.com/photos/9Sd1jAC7ev0">
+</head>
+
+<body>
+    <header>
+        <div class=" bio">
+            <img id="profile-picture" src="images/profile.webp" alt="profile-picture-of-alberto gomez">
+            <h1>Alberto Gomez Arias</h1>
+        </div>
+        <a id="menu"></a>
+        <nav class="navigation">
+            <a href="https://agomezarias.github.io/wdd230/index.html">Home</a>
+            <a href="https://agomezarias.github.io/wdd230/chamber/">Chamber</a>
+            <a href="https://agomezarias.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a>
+            <a href="https://agomezarias.github.io/wdd230/week04/form.html">Form</a>
+        </nav>
+    </header>
+    <div id="formmessage"></div>
+    <main>
+        <form method="get" action="record.html">
+            <div class="formheader">
+                <h2>- - - Registration Form - - -</h2>
+            </div>
+            <label>Username* <input type="text" name="username" id="username" required></label>
+
+            <label>Password* <input type="password" name="password" id="password" required
+                    pattern="^[a-zA-Z0-9]{8,}$"></label>
+
+            <label>Confirm Password* <input type="password" name="confirm_password" id="confirm-password"
+                    oninput="checkSame()" required pattern="^[a-zA-Z0-9]{8,}$"></label>
+
+            <span id="password-message"></span>
+
+            <label>Email* <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                    title="Please enter a valid email address"></label>
+
+            <label>Page Rating
+                <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="0">6</option>
+                    <option value="0">7</option>
+                    <option value="0">8</option>
+                    <option value="0">9</option>
+                    <option value="0">10</option>
+                </datalist></label>
+
+            <div id="rangevalue">1</div>
+
+            <button type="submit" id="submit">Submit Form</button>
+        </form>
+    </main>
+    <footer>
+        <p id="first">©2023 🤠 Alberto Gomez Arias 🤠 United States
+            <img id="flag" src="images/american-flag.webp" alt="american-flag">
+        </p>
+        <p id="second">Last Modified:<span id="last-modified"></span></p>
+    </footer>
+    <script src="scripts/responsiveHamburgerMenu.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/pageVisits.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

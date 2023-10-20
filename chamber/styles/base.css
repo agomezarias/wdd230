@@ -182,7 +182,7 @@ a:hover {
     color: var(--nav-hover-link-color);
 }
 
-/* Call to action form */
+/*Form */
 
 form {
     padding: 0rem;
@@ -190,6 +190,7 @@ form {
     background-color: var(--secondary-color);
     border: .5rem dotted var(--accent1-color);
     border-radius: 1rem;
+    margin-top: .5rem;
 }
 
 fieldset {
@@ -208,6 +209,19 @@ legend {
     font-size: 1.5rem;
 }
 
+label {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--nav-background-color);
+    margin-top: .5rem;
+    border-radius: 1rem;
+}
+
 label,
 input,
 button,
@@ -216,16 +230,25 @@ textarea {
     font-family: var(--paragraph-font)
 }
 
-input,
 textarea {
     padding: .5rem;
     font-size: 1rem;
     font-weight: 700;
-    width: 90%;
+    max-width: 90%;
+}
+
+input,
+select {
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 button#submit1,
-button#submit2 {
+button#submit2,
+input#submit {
     display: flex;
     margin: 2rem;
     background-color: var(--accent2-color);
@@ -235,14 +258,14 @@ button#submit2 {
     border-radius: 1rem;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 80%;
     align-items: center;
     justify-content: center;
 }
 
 button#submit1:hover,
 button#submit2:hover,
-button#join:hover {
+button#join:hover,
+input#submit:hover {
     background-color: var(--accent1-color);
 }
 
@@ -268,14 +291,12 @@ button#join:hover {
     background-color: var(--nav-background-color);
 }
 
-.booking button:hover {
-    background-color: var(--accent1-color);
-}
 
 .formheader {
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 h4 {

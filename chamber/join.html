@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Alberto Gomez Arias - WDD 230 - Web Frontend Development</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="favicon.webp">
+  <meta name="description" content="WDD 230 - Web Frontend Development, Alberto Gomez Arias, Course Assignment Portal">
+  <meta name="author" content="Alberto Gomez Arias">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <meta property="og:title" content="My Hometown (Denver, CO)">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1616474632177-aefa7a4fbb1f?crop=faces%2Cedges&cs=tinysrgb&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjk1NDI0OTM5fA&ixlib=rb-4.0.3&q=60&w=1200&auto=format&h=630&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-mode=normal&blend-alpha=10&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=000000">
+  <meta property="og:url" content="https://unsplash.com/photos/9Sd1jAC7ev0">
+</head>
+
+<body>
+  <header>
+    <div class=" bio">
+      <img id="profile-picture" src="images/profile.webp" alt="profile-picture-of-alberto gomez">
+      <h1>Alberto Gomez Arias</h1>
+    </div>
+    <a id="menu"></a>
+    <nav class="navigation">
+      <a href="https://agomezarias.github.io/wdd230/index.html">Home</a>
+      <a href="https://agomezarias.github.io/wdd230/chamber/">Chamber</a>
+      <a href="https://agomezarias.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a>
+      <a href="https://agomezarias.github.io/wdd230/form.html">Form</a>
+    </nav>
+  </header>
+  <main>
+    <div id="mode">
+      Dark Mode 🌑
+    </div>
+    <form method="get" action="thankyou.html">
+      <div class="formheader">
+        <h4>!! Join The Chamber Now !!</h4>
+      </div>
+      <fieldset>
+        <legend>Applicant Information Form</legend>
+
+        <label>First Name* <input type="text" name="fname" id="fname" required></label>
+
+        <label>Last Name* <input type="text" neme="lname" id="lname" required></label>
+
+        <label for="position">Applicant's Title or Position* <input type="text" name="position" id="position"
+            pattern="[A-Za-z -]{7,}" placeholder="Please enter a minimum of seven characters" required></label>
+
+
+        <label>Email Address* <input type="email" name="email" id="email" placeholder="someone@gmail.com"
+            required></label>
+
+
+        <label>Mobile Phone Number* <input type="tel" name="phone" id="phone" required></label>
+
+
+        <label>Business/Organization's Name* <input type="text" name="organization" id="organization" required></label>
+
+
+        <label>Membership Level
+          <select id="membership" name="membership">
+            <option value="NP Membership">Non Profit Membership (No Fee)</option>
+            <option value="Bronze Membership">Bronze Membership $24.99 / Yr</option>
+            <option value="Silver Membership">Silver Membership $34.99 / Yr</option>
+            <option value="Gold Membership">Gold Membership $39.99 / Yr</option>
+          </select>
+        </label>
+
+
+        <label>Business/Organization's Description <textarea name="description" id="description"></textarea></label>
+
+        <input type="hidden" name="timestamp" id="timestamp" value="Current Timestamp Value">
+
+        <input type="submit" id="submit" value="Submit Form">
+      </fieldset>
+  </main>
+  <footer>
+    <p id="first">©2023 🤠 Alberto Gomez Arias 🤠 United States
+      <img id="flag" src="images/american-flag.webp" alt="american-flag">
+    </p>
+    <p id="second">Last Modified:<span id="last-modified"></span></p>
+  </footer>
+  <script src="scripts/responsiveHamburgerMenu.js"></script>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/darkMode.js"></script>
+  <script src="scripts/pageVisits.js"></script>
+</body>
+
+</html>

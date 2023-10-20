@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap");
+
+:root {
+    --primary-color: #f8fbff;
+    --secondary-color: #8fc3cb;
+    --accent1-color: #1a1a80;
+
+    --heading-font: "Tilt Prism", serif;
+    --paragraph-font: "Shantell Sans", serif;
+
+    --nav-background-color: #1a1a80;
+    --nav-link-color: #8fc3cb;
+    --nav-hover-link-color: #0f0636;
+    --nav-hover-background-color: #dce1e9;
+    --nav-link-color-2: #004466;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+main,
+footer,
+div {
+    max-width: 960px;
+    min-width: 600px;
+    margin: 1rem auto;
+}
+
+div.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+header img {
+    width: 75px;
+    height: 113px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+li.a {
+    color: var(--secondary-color);
+}
+
+h1 {
+    color: var(--accent1-color);
+}
+
+h2 {
+    display: grid;
+    font-size: 1.4em;
+    justify-content: left;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+form {
+    padding: 0rem;
+    margin: 0rem auto;
+    background-color: var(--secondary-color);
+    border: .5rem dotted var(--accent1-color);
+    border-radius: 1rem;
+    margin-top: .5rem;
+}
+
+fieldset {
+    display: grid;
+    margin: 0rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+legend {
+    padding: .45rem;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+label {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--nav-background-color);
+    margin-top: .5rem;
+    border-radius: 1rem;
+    font-size: large;
+}
+
+label,
+input,
+button,
+textarea {
+    font-family: var(--paragraph-font)
+}
+
+textarea {
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 90%;
+}
+
+input {
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    max-width: 100%;
+}
+
+span#password-message {
+    color: red;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+button {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    left: 16rem;
+    background-color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-content: center;
+}
+
+input#submit {
+    display: flex;
+    margin: 2rem;
+    background-color: var(--accent2-color);
+    color: var(--nav-hover-background-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover,
+input#submit:hover {
+    background-color: var(--accent1-color);
+}
+
+.formheader {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+h2 {
+    display: block;
+    justify-content: left;
+    color: var(--primary-color);
+    background-color: var(--nav-background-color);
+    font-size: 1.8rem;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+footer img {
+    width: 65px;
+    height: 34px;
+    padding-left: 1rem;
+
+}
+
+p#first {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p#second {
+    color: var(--nav-background-color);
+}
+
+/*Hamburger Button*/
+
+#menu {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-background-color);
+    justify-content: right;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+a#menu.show {
+    background-color: var(--nav-link-color-2);
+}
+
+#menu.show::before {
+    content: "❌";
+    background-color: var(--secondary-color);
+    font-size: large;
+    padding: .3rem;
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation a {
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    font-weight: 700;
+}
+
+.navigation a:link,
+.navigation a:visited {
+    color: var(--nav-hover-background-color);
+}
+
+div a {
+    color: var(--nav-link-color-2);
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    height: fit-content;
+}
+
+.show.navigation {
+    display: grid;
+}
+
+/* Page Rating */
+
+#rangevalue {
+    display: flex;
+    position: relative;
+    font-size: 2rem;
+    color: var(--primary-color);
+    bottom: 7rem;
+    justify-content: end;
+    right: 10rem;
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 0px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+
+}
