@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap");
 
 :root {
     --primary-color: #f8fbff;
@@ -42,9 +42,9 @@ header img {
     align-items: center;
     padding-right: 1rem;
     padding-top: 1rem;
-}
+} */
 
-header {
+/* header {
     background-color: var(--secondary-color);
 }
 
@@ -62,7 +62,7 @@ h2 {
     justify-content: left;
     text-align: left;
     padding-left: 1rem;
-}
+} */
 
 form {
     padding: 0rem;
@@ -122,7 +122,6 @@ input {
     font-weight: 700;
     margin-right: 1rem;
     margin-left: 1rem;
-    max-width: 100%;
 }
 
 span#password-message {
@@ -135,7 +134,6 @@ button {
     display: flex;
     position: relative;
     bottom: 2rem;
-    left: 25rem;
     background-color: var(--nav-hover-link-color);
     color: var(--nav-hover-background-color);
     border: none;
@@ -198,7 +196,7 @@ footer img {
 
 }
 
-p#first {
+/* p#first {
     display: flex;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -206,11 +204,11 @@ p#first {
 
 p#second {
     color: var(--nav-background-color);
-}
+} */
 
 /*Hamburger Button*/
 
-#menu {
+/* #menu {
     display: flex;
     font-size: 2rem;
     font-weight: 700;
@@ -266,7 +264,7 @@ div a {
 
 .show.navigation {
     display: grid;
-}
+} */
 
 /* Page Rating */
 
@@ -277,7 +275,7 @@ div a {
     color: var(--primary-color);
     bottom: 7rem;
     justify-content: end;
-    right: 10rem;
+    right: 6rem;
 }
 
 #rangevalues {
