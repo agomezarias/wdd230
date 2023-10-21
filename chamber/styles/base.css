@@ -33,35 +33,41 @@ footer {
 h1 {
     display: flex;
     padding: .25rem;
-    font-size: 2rem;
-    position: relative;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* position: relative; */
     color: var(--primary-color);
-    padding-left: .75rem;
+    /* padding-left: 1.6rem; */
+    max-width: 125px;
 }
 
 .socialmedia {
     display: flex;
     justify-content: center;
     padding: .25rem;
+    width: 116px;
 }
 
 .header-top {
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    gap: 0;
+    /* gap: 0; */
 }
 
 img#logo {
-    position: relative;
-    width: 15%;
-    height: auto;
+    /* position: relative; */
+    /* width: 15%; */
+    width: 65px;
+    height: 65px;
 }
 
 header img {
     display: flex;
-    width: 2.5rem;
-    height: auto;
+    width: 38px;
+    height: 38px;
 }
 
 header {
@@ -348,28 +354,32 @@ p#second {
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
+    align-items: center;
     cursor: pointer;
-    padding: .75rem;
-    justify-content: right;
+    justify-content: center;
     background-color: var(--nav-background-color);
     color: var(--nav-hover-background-color);
 }
 
 #menu::before {
     content: "≡";
-    padding: .75rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
     justify-content: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 a#menu {
     height: 35px;
     align-items: center;
-    padding-right: .5rem;
 }
 
 a#menu.show {
     background-color: var(--nav-link-color-2);
     align-items: center;
+    text-align: center;
 }
 
 #menu.show::before {
@@ -479,8 +489,7 @@ iframe#map,
 iframe#calendar {
     display: flex;
     position: relative;
-    max-width: 100%;
-    min-width: 360px;
+    min-width: 400px;
     margin: 0 auto;
 }
 

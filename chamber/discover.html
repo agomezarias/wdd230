@@ -55,7 +55,7 @@
     </div>
     <section class="side-layout">
       <figure>
-        <img class="hover" src="images/anschutz-medical-center-campus-aurora-colorado.webp" loading="lazy" width="400"
+        <img class="hover" src="images/anschutz-medical-center-campus-aurora-colorado.webp" loading="eager" width="400"
           height="600" alt="anschutz-medical">
         <figcaption>Anschutz Medical Campus</figcaption>
       </figure>
@@ -111,9 +111,9 @@
       </figure>
       <div id="details4">
         <h3>Aurora Reservoir</h3>
-        <iframe id="calendar"
-          src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showCalendars=0&showTitle=1&showNav=1&showPrint=0&showTabs=0&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237CB342"
-          style="border:solid 1px #777" width="400" height="400"></iframe>
+        <iframe id="calendar" title="calendar"
+          src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTabs=0&showCalendars=0&showPrint=0&src=ZjY3NjgyYTlhY2EzZjBhNzY5MWFjN2Y1NzE5M2U5N2MyZjI5MmQwZGVjN2RiMTBmOWIxMDZiNGRkMTExMzZiN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00"
+          style="border:solid 1px #777" width="300" height="400" frameborder="0" scrolling="no"></iframe>
       </div>
       <figure>
         <img class="hover" src="images/aurora-road-improvements.webp" loading="lazy" width="400" height="600"
@@ -154,10 +154,11 @@
       </p>
     </div>
   </main>
-  <iframe id="map"
+  <iframe id="map" title="map"
     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12272.29217239698!2d-104.84218864518!3d39.73801006971129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697872613971!5m2!1sen!2sus"
     width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
   <footer>
     <p id="first">©2023 🤠 Alberto Gomez Arias 🤠 United States
       <img id="flag" src="images/american-flag.webp" alt="american-flag">
@@ -167,7 +168,6 @@
   <script src="scripts/responsiveHamburgerMenu.js"></script>
   <script src="scripts/getDates.js"></script>
   <script src="scripts/darkMode.js"></script>
-  <script src="scripts/pageVisits.js"></script>
 </body>
 
 </html>

@@ -168,6 +168,11 @@
         max-width: 800px;
     }
 
+    iframe#calendar {
+        max-width: 350px;
+        min-width: auto;
+    }
+
     .hover:hover {
         box-shadow: 0 0 50px #333;
         transform: scaleX(-1);
