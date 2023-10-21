@@ -33,7 +33,7 @@ footer {
 h1 {
     display: flex;
     padding: .25rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     position: relative;
     color: var(--primary-color);
     padding-left: .75rem;
@@ -49,6 +49,7 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0;
 }
 
 img#logo {
@@ -66,7 +67,8 @@ header img {
 header {
     display: block;
     background-color: var(--nav-background-color);
-
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #submission {
@@ -101,6 +103,11 @@ button#join {
     text-align: center;
     font-weight: 700;
     justify-content: right;
+}
+
+#mode:hover {
+    color: var(--primary-color);
+    background-color: var(--nav-hover-link-color);
 }
 
 .hero img {
@@ -470,13 +477,12 @@ figure p {
 
 iframe#map,
 iframe#calendar {
-    display: grid;
+    display: flex;
     position: relative;
-    max-width: 464px;
+    max-width: 100%;
     min-width: 360px;
     margin: 0 auto;
 }
-
 
 #details1 {
     margin: .5rem;
@@ -503,6 +509,7 @@ iframe#calendar {
 }
 
 #details4 {
+    position: relative;
     margin: .5rem;
     display: grid;
     align-items: center;

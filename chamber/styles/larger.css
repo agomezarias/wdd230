@@ -3,8 +3,7 @@
     body,
     header,
     footer,
-    main,
-    iframe#map {
+    main {
         max-width: 900px;
         min-width: 715px;
         margin: .5rem auto;
@@ -14,7 +13,9 @@
     header {
         display: flex;
         background-color: var(--nav-background-color);
-        justify-content: space-around;
+        justify-content: space-evenly;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     header img {
@@ -30,8 +31,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: .5rem;
-        margin-left: .5rem;
     }
 
     img#logo {
@@ -48,9 +47,8 @@
 
     nav.navigation {
         display: flex;
-        font-size: medium;
         text-align: right;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
     }
 
@@ -101,6 +99,10 @@
         cursor: pointer;
         border-radius: 1rem;
         justify-content: center;
+    }
+
+    #mode:hover {
+        background-color: var(--accent1-color);
     }
 
     .events-weather {
@@ -161,9 +163,9 @@
         font-size: larger;
     }
 
-    iframe#calendar {
-        display: flex;
-        width: 90%;
+
+    iframe#map {
+        max-width: 800px;
     }
 
     .hover:hover {
