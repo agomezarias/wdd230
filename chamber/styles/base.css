@@ -38,7 +38,7 @@ h1 {
     align-items: center;
     text-align: left;
     color: var(--primary-color);
-    max-width: 125px;
+    width: 145px;
 }
 
 .socialmedia {
@@ -308,7 +308,7 @@ input#submit:hover {
     border-radius: 1rem;
 }
 
-h4 {
+.formheader p {
     display: block;
     justify-content: left;
     font-family: var(--heading-font);
