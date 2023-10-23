@@ -1,0 +1,65 @@
+{
+    "wardMembers": [
+        {
+            "familyName": "Gomez",
+            "dateMovedIn": "06-15-2016",
+            "numberOfRecords": "4",
+            "visitedByBishopric": true,
+            "familyMembers": [
+                {
+                    "name": "John Gomez",
+                    "gender": "Male",
+                    "birthdate": "December, 1980"
+                },
+                {
+                    "name": "Jane Gomez",
+                    "gender": "Female",
+                    "birthdate": "December, 1982"
+                },
+                {
+                    "name": "Charlie Gomez",
+                    "gender": "Male",
+                    "birthdate": "December, 1995"
+                },
+                {
+                    "name": "Carla Gomez",
+                    "gender": "Female",
+                    "birthdate": "December, 1997"
+                }
+            ]
+        },
+        {
+            "familyName": "Jones",
+            "dateMovedIn": "10-21-2023",
+            "numberOfRecords": "5",
+            "visitedByBishopric": false,
+            "familyMembers": [
+                {
+                    "name": "Jimmy Jones",
+                    "gender": "Male",
+                    "birthdate": "June, 1985"
+                },
+                {
+                    "name": "Sarah Jones",
+                    "gender": "Female",
+                    "birthdate": "January, 1984"
+                },
+                {
+                    "name": "Jake Jones",
+                    "gender": "Male",
+                    "birthdate": "March, 2000"
+                },
+                {
+                    "name": "Diana Jones",
+                    "gender": "Female",
+                    "birthdate": "December, 2002"
+                },
+                {
+                    "name": "Destiny Jones",
+                    "gender": "Female",
+                    "birthdate": "December, 2003"
+                }
+            ]
+        }
+    ]
+}
