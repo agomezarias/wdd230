@@ -55,6 +55,7 @@ section {
     height: 600px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 img {
@@ -75,7 +76,6 @@ img {
     justify-content: center;
     align-items: center;
     grid-template-columns: 1rem 1fr;
-
 }
 
 
