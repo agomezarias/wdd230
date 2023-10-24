@@ -40,8 +40,11 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
     background-color: var(--secondary-color);
+    min-width: 405px;
+    max-width: 1613px;
+    padding: 2rem;
 }
 
 section {
