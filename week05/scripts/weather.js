@@ -9,7 +9,7 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            // console.log(data)
+            // console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -22,10 +22,10 @@ apiFetch();
 
 
 function displayResults(data) {
-    currenTemp.innerHTML = '${data.main.temp}&degree;F';
-    const inconSrc = 'https://openweathermap.org/img/w/${weather[0]}.icon';
+    currenTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const inconSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', inconSrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDes.textContent = '${desc}';
+    captionDes.textContent = `${desc}`;
 }
