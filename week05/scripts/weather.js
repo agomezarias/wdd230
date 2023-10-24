@@ -23,7 +23,7 @@ apiFetch();
 
 function displayResults(data) {
     currenTemp.innerHTML = '${data.main.temp}&degree;F';
-    const inconSrc = 'https://openweathermap.org/img/w/${weather}.icon';
+    const inconSrc = 'https://openweathermap.org/img/w/${weather[0]}.icon';
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', inconSrc);
     weatherIcon.setAttribute('alt', desc);
