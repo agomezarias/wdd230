@@ -57,11 +57,18 @@
         <p>BUILDING OUR FUTURE TOGETHER</p>
       </div>
     </div>
+
     <div id="submission">
-      <button id="join" type="submit">Join the Chamber</button>
+      <button id="join" href="https://agomezarias.github.io/wdd230/chamber/join.html" type="submit">Join the
+        Chamber</button>
       <div id="mode">
         Dark Mode 🌑
       </div>
+    </div>
+    <div id="banner">
+      <h3>Attend the Chamber of Commerce Meet and Greet!!!!</h3>
+      <p>📣 Wednesday at 7:00 p.m. 📣</p>
+      <button id="bannerBtn">X</button>
     </div>
     <section class="events-weather">
       <h2>BE INFORMED</h2>
@@ -71,7 +78,8 @@
         <div id="events">
           <p>Event Title</p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia tempore sapiente reprehenderit!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus officia tempore sapiente
+            reprehenderit!
             Deserunt exercitationem quae quis deleniti maiores amet praesentium, eveniet natus soluta quam quasi
             suscipit
             odit eligendi voluptas.
@@ -82,8 +90,11 @@
         <h3>Weather & Info.</h3>
         <hr>
         <div id="location">
-          <p>Aurora, Colorado<span id="city-state"></span></p>
-          <p>Weather: 🌞 91°F - Sunny<span id="weather"></span></p>
+          <p>Aurora, Colorado<span id="current-location"></p>
+          <figure id="weather-flexed">
+            <img id="weather-icon" src="" alt=""><span id="current-temp"></span></p>
+            <figcaption></figcaption>
+          </figure>
           <p><span class="label">Page Visits: </span><span class="visits"></span></p>
         </div>
         <hr>
@@ -120,7 +131,8 @@
       </div>
     </section>
     <section class="call-to-action">
-      <button id="submit1" type="submit">Subscribe To Our Newsletter</button>
+      <button id="submit1" href="https://agomezarias.github.io/wdd230/chamber/join.html" type="submit">Join Our
+        Chamber</button>
       <form>
         <div class="formheader">
           <p>!! Join The Community Now !!</p>
@@ -135,7 +147,8 @@
             <label for="useremail">Email:</label>
             <input type="email" id="useremail" name="useremail">
           </div>
-          <button id="submit2" type="submit">Click Here to Sign Up</button>
+          <a id="submit2" href="https://agomezarias.github.io/wdd230/chamber/thankyou.html" type="submit">Click
+            Here to Sign Up</a>
         </fieldset>
       </form>
     </section>
@@ -150,6 +163,8 @@
   <script src="scripts/responsiveHamburgerMenu.js"></script>
   <script src="scripts/darkMode.js"></script>
   <script src="scripts/pageVisits.js"></script>
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/buttons.js"></script>
 </body>
 
 </html>

@@ -473,6 +473,18 @@ figure {
     margin: 0;
 }
 
+figure#weather-flexed {
+    display: flex;
+}
+
+figure#weather-flexed img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+}
+
 figure img {
     display: block;
     width: 400px;

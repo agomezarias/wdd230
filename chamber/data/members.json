@@ -1,67 +1,63 @@
 {
-    "companyMembers": [
+    "company-Members": [
         {
-            "company": "Roto Rooter",
-            "address": "06-15-2016",
-            "phoneNumber": "4",
-            "websiteURL": "https://www.rotorooter.com/auroraco/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=website",
+            "company": "Plumbers R Us",
+            "address": "9864 This Way Street, Aurora, CO 80257",
+            "phoneNumber": "303-689-8327",
+            "websiteURL": "#",
             "services": "installation, and repairs.",
-            "membershipLevel":
-             [
-                {
-                    "name": "John Gomez",
-                    "gender": "Male",
-                    "birthdate": "December, 1980"
-                },
-                {
-                    "name": "Jane Gomez",
-                    "gender": "Female",
-                    "birthdate": "December, 1982"
-                },
-                {
-                    "name": "Charlie Gomez",
-                    "gender": "Male",
-                    "birthdate": "December, 1995"
-                },
-                {
-                    "name": "Carla Gomez",
-                    "gender": "Female",
-                    "birthdate": "December, 1997"
-                }
-            ]
+            "icon": "",
+            "membershipLevel": "gold"
         },
         {
-            "familyName": "Jones",
-            "dateMovedIn": "10-21-2023",
-            "numberOfRecords": "5",
-            "visitedByBishopric": false,
-            "familyMembers": [
-                {
-                    "name": "Jimmy Jones",
-                    "gender": "Male",
-                    "birthdate": "June, 1985"
-                },
-                {
-                    "name": "Sarah Jones",
-                    "gender": "Female",
-                    "birthdate": "January, 1984"
-                },
-                {
-                    "name": "Jake Jones",
-                    "gender": "Male",
-                    "birthdate": "March, 2000"
-                },
-                {
-                    "name": "Diana Jones",
-                    "gender": "Female",
-                    "birthdate": "December, 2002"
-                },
-                {
-                    "name": "Destiny Jones",
-                    "gender": "Female",
-                    "birthdate": "December, 2003"
-                }
-            ]
+            "company": "Electrified LLC",
+            "address": "5678 That Street, Denver, CO 86471",
+            "phoneNumber": "720-618-2247",
+            "websiteURL": "#",
+            "services": "All electrical needs.",
+            "icon": "",
+            "membershipLevel": "gold"
+        },
+        {
+            "company": "Arts & Crafts",
+            "address": "4867 This Street, Denver, CO 86471",
+            "phoneNumber": "303-321-9876",
+            "websiteURL": "#",
+            "services": "Espressions through art",
+            "icon": "",
+            "membershipLevel": "bronze"
+        },{
+            "company": "Karate Kids",
+            "address": "6247 Chambers Blvd, Denver, CO 80247",
+            "phoneNumber": "303-123-4567",
+            "websiteURL": "#",
+            "services": "Self defense for the youth",
+            "icon": "",
+            "membershipLevel": "silver"
+        },{
+            "company": "Tree Trimz",
+            "address": "9847 Tree Cut Lane, Aurora, CO 80010",
+            "phoneNumber": "720-987-6543",
+            "websiteURL": "#",
+            "services": "Landscaping and more",
+            "icon": "",
+            "membershipLevel": "silver"
+        },{
+            "company": "Computer Specialists",
+            "address": "2487 Outer Way, Denver, CO 80124",
+            "phoneNumber": "303-457-3214",
+            "websiteURL": "#",
+            "services": "Computers and Electronics.",
+            "icon": "",
+            "membershipLevel": "gold"
+        },{
+            "company": "Energy Shakes",
+            "address": "8715 Inner Street, Denver, CO 84621",
+            "phoneNumber": "303-784-4578",
+            "websiteURL": "#",
+            "services": "Recharge your batteries.",
+            "icon": "",
+            "membershipLevel": "bronze"
         }
     ]
 }
