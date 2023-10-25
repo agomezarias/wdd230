@@ -107,6 +107,12 @@ div#location {
     text-align: center;
 }
 
+figure#weather-flexed {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
 iframe {
     display: block;
     border-radius: .5rem;
