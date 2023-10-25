@@ -1,7 +1,7 @@
 {
     "weeks": [
       {
-        "week": "Week 1",
+        "week": "Week01",
         "links": [
           {
             "url":"https://agomezarias.github.io/wdd230/week01/holygrail.html",
@@ -19,7 +19,7 @@
       },
       
       {
-        "week": "Week 2",
+        "week": "Week02",
         "links": [
           {
             "url":"https://agomezarias.github.io/wdd230/week02/design.html",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "week": "Week 3",
+        "week": "Week03",
         "links": [
           {
             "url":"https://agomezarias.github.io/wdd230/week03/images/landscape.webp",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "week": "Week 4",
+        "week": "Week04",
         "links": [
           {
             "url":"https://codepen.io/agomezarias/pen/YzdmdWQ",
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "week": "Week 5",
+        "week": "Week05",
         "links": [
           {
             "url":"https://codepen.io/agomezarias/pen/dyaywGo",
@@ -91,7 +91,7 @@
         ]
       },
       {
-        "week": "Week 6",
+        "week": "Week06",
         "links": [
           {
             "url":"https://agomezarias.github.io/wdd230/index.html",
@@ -100,7 +100,7 @@
         ]
       },
       {
-        "week": "Week 7",
+        "week": "Week07",
         "links": [
           {
             "url":"https://agomezarias.github.io/wdd230/chamber/",
