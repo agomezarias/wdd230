@@ -1,0 +1,112 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"https://agomezarias.github.io/wdd230/week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week01/media-query.html",
+            "title":"mQueries"
+          },
+          {
+            "url":"https://codepen.io/agomezarias/pen/WNLOKgg",
+            "title":"Applied JS"
+          }
+        ]
+      },
+      
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"https://agomezarias.github.io/wdd230/week02/design.html",
+            "title":"DP Layout"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week02/bom.html",
+            "title":"BOM"
+          },
+          {
+            "url":"https://codepen.io/agomezarias/pen/ExGomJX",
+            "title":"Responsive Nav"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"https://agomezarias.github.io/wdd230/week03/images/landscape.webp",
+            "title":"Landscape IMG"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week03/lazyload.html",
+            "title":"Lazy Load"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week03/responsive-images.html",
+            "title":"Responsive IMG"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week03/bom.html",
+            "title":"Updated BOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/agomezarias/pen/YzdmdWQ",
+            "title":"Pseudo-Classes"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week04/images/combinator.webp",
+            "title":"Combinators"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/agomezarias/pen/dyaywGo",
+            "title":"Pseudo-Elements"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week05/new-ward-members.json",
+            "title":"Ward JSON File"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week05/prophets.html",
+            "title":"Prophets"
+          },
+          {
+            "url":"https://agomezarias.github.io/wdd230/week05/weather.html",
+            "title":"Weather API"
+          }
+        ]
+      },
+      {
+        "week": "Week 6",
+        "links": [
+          {
+            "url":"https://agomezarias.github.io/wdd230/index.html",
+            "title":"Home Page Completed"
+          }
+        ]
+      },
+      {
+        "week": "Week 7",
+        "links": [
+          {
+            "url":"https://agomezarias.github.io/wdd230/chamber/",
+            "title":"Chamber Page Completed"
+          }
+        ]
+      }
+    ]
+}
