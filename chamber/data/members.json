@@ -6,7 +6,7 @@
             "phoneNumber": "303-689-8327",
             "websiteURL": "#",
             "services": "installation, and repairs.",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/plumber.svg",
             "membershipLevel": "gold"
         },
         {
@@ -15,7 +15,7 @@
             "phoneNumber": "720-618-2247",
             "websiteURL": "#",
             "services": "All electrical needs.",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/electrical.svg",
             "membershipLevel": "gold"
         },
         {
@@ -24,7 +24,7 @@
             "phoneNumber": "303-321-9876",
             "websiteURL": "#",
             "services": "Espressions through art",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/art-pallete.svg",
             "membershipLevel": "bronze"
         },{
             "company": "Karate Kids",
@@ -32,7 +32,7 @@
             "phoneNumber": "303-123-4567",
             "websiteURL": "#",
             "services": "Self defense for the youth",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/karate.svg",
             "membershipLevel": "silver"
         },{
             "company": "Tree Trimz",
@@ -40,7 +40,7 @@
             "phoneNumber": "720-987-6543",
             "websiteURL": "#",
             "services": "Landscaping and more",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/tree.svg",
             "membershipLevel": "silver"
         },{
             "company": "Computer Specialists",
@@ -48,7 +48,7 @@
             "phoneNumber": "303-457-3214",
             "websiteURL": "#",
             "services": "Computers and Electronics.",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/computer.svg",
             "membershipLevel": "gold"
         },{
             "company": "Energy Shakes",
@@ -56,7 +56,7 @@
             "phoneNumber": "303-784-4578",
             "websiteURL": "#",
             "services": "Recharge your batteries.",
-            "icon": "",
+            "icon": "https://agomezarias.github.io/wdd230/chamber/images/battery.svg",
             "membershipLevel": "bronze"
         }
     ]
