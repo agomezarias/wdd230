@@ -1,20 +1,29 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+const url = 'https://agomezarias.github.io/wdd230/chamber/data/members.json';
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+async function fetchMemberData() {
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
 
-gridbutton.addEventListener("click", () => {
-    // example using arrow function
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
+        data['company-Members'].forEach(member => {
+            const card = document.createElement('div');
+            card.classList.add('member-card');
+            card.innerHTML = `
+        <h3>${member.company}</h3>
+        <img src="${member.icon}" alt="${member.company} Icon">
+        <p>Address: ${member.address}</p>
+        <p>Phone: ${member.phoneNumber}</p>
+        <p>Services: ${member.services}</p>
+        <p>Membership Level: ${member.membershipLevel}</p>
+        <!-- Add more member information as needed -->
+      `;
+            document.getElementById('cards').appendChild(card);
+        });
 
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
+    } catch (error) {
+        console.error('Error fetching member data:', error);
+    }
 }
 
+fetchMemberData();
 
